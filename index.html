@@ -202,10 +202,16 @@
             <h3 class="mb-0">Research Assistant</h3>
             <div class="subheading mb-3">Birla Institute of Technology Mesra</div>
             <ul>
-              <li>Assisted in a writer-dependent signature verification project.</li>
+              <li>Assisted in a signature verification project where the goal was to classify both writer-dependent and writer-independent signatures into genuine & forged categories.</li>
               <li>Read research papers and did literature review on deep learning models for image classification & hand-written signature verification.</li>
-              <li>Used SigComp dataset & prepared the data by extracting 21 physical features from the images.</li>
-              <li>Technologies used: Python - Pandas, numpy, os, OpenCV (cv2), matplotlib</li>
+              <li>Used pre-trained transfer learning models to evaluate the performance for the classification of the writer-independent signatures. Below is the list of models and their validation accuracy obtained when applied to the SigComp dataset.</li>
+              <ul>
+                  <li>MobileNet V2 - 82.20 %</li>
+                  <li>Inception V3 - 73.60 %</li>
+                  <li>ResNet 50 - 85.20 %</li>
+              </ul>
+              <li>Prepared the data for writer-dependent signature classification by extracting 21 physical features from the images.</li>
+              <li>Technologies used: Python - Pandas, numpy, os, OpenCV (cv2), matplotlib, tensorflow keras</li>
             </ul>
           </div>
           <div class="resume-date text-md-right">
