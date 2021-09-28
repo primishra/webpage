@@ -317,20 +317,27 @@
         
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Writer Dependent and Writer Independent Online Signature Verification</h3>
+            <h3 class="mb-0">Writer Dependent and Writer Independent Offline Signature Verification</h3>
             <div class="subheading mb-3">Research Assistant under Dr. Rashmirathi Upadhyay, BIT Mesra</div>
             <ul>
-              <li>Working to classify the hand-written signature images into genuine and forged categories.</li>
+              <li>Worked to classify the hand-written signature images into genuine and forged categories.</li>
               <li>Read research papers and did literature review on deep learning models for image classification & hand-written signature verification.</li>
-              <li>Used pre-trained transfer learning models to evaluate the performance for the classification of the signatures into Genuine and Forged categories.</li>
+              <li>Used pre-trained transfer learning models to evaluate the performance for the classification of the writer-independent signatures into Genuine and Forged categories.</li>
               <li>Below is the list of models and their validation accuracy obtained when applied to the SigComp dataset.</li>
                 <ul>
                   <li>MobileNet V2 - 82.20 %</li>
                   <li>Inception V3 - 73.60 %</li>
                   <li>ResNet 50 - 85.20 %</li>
                 </ul>
-              <li>Prepared the data for writer-dependent signature classification by extracting 21 physical features from the images.</li>
-              <li>Technologies Used: Python - Pandas, numpy, os, OpenCV (cv2), matplotlib, tensorflow keras</li>
+              <li>Prepared the data for writer-dependent signature classification by extracting 21 physical features from each image.</li>
+              <li>Below is the list of Machine Learning models and their test accuracy obtained when applied to the SigComp dataset.</li>
+              <ul>
+                  <li>Logistic Regression – 82.74 %</li>
+                  <li>Ensemble Model (Random Forest & SVM as base model and Logistic Regression as meta classifier) – 80.45 %</li>
+                  <li>Xgboost – 79.40 %</li>
+                  <li>Gaussian Naïve Bayes – 75.92 %</li>
+                </ul>
+              <li>Technologies Used: Python - Pandas, numpy, os, OpenCV (cv2), matplotlib, tensorflow keras, scikit learn</li>
             </ul>
           </div>
           <div class="resume-date text-md-right">
